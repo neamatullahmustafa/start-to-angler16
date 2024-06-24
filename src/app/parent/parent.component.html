@@ -1,0 +1,5 @@
+<h5 [ngClass]="{'bg-danger':conditionTrue,'bg-info':conditionFalse}">parent works!</h5>
+<app-child [dataTransfer]="data"></app-child>
+<h5 [ngStyle]="{'background-color':conditionFalse?'tomato':'aqua'}">parent works!</h5>
+<p #myName>NEAMATULLAH</p>
+<button class="btn btn-danger" (click)="welcome(myName)">CLECK ME</button>
